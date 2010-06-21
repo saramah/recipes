@@ -1,0 +1,3 @@
+include recipes/config/deployment.ini_tmpl
+recursive-include recipes/public *
+recursive-include recipes/templates *
