@@ -1,0 +1,19 @@
+-recipes
+    -ingredients 
+    -cooking methods
+    -instructions
+    -ease of tasks
+    -utensils required
+    -preparation time
+    -cooking time
+    -tags/categories (breakfast, lunch, vegetarian, ingredients, etc)
+
+Should be able to sort based on ingredients, like all recipes with mozzarella,
+prosciutto and meat. Or all breakfast recipes. Also want to be able to search
+by time of preparation, time to cook, pretty much by anything.
+
+It'd be cool if I could also visualize my recipes: charts of breakdown by
+categories, difficulty, tags, etc.
+
+A separate portion for ingredients on hand. Keeping inventory on what's in
+the fridge/cabinets. If only labels had RFIDs in them.
