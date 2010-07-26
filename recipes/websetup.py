@@ -14,5 +14,9 @@ def setup_app(command, conf, vars):
     if not pylons.test.pylonsapp:
         load_environment(conf.global_conf, conf.local_conf)
 
+    log.info("Creating tables...")
+    Base.metadata.drop_all(checkfirst=True, bind=Session.bind)
+
     # Create the tables if they don't already exist
     Base.metadata.create_all(bind=Session.bind)
+    log.info("Successfully set up tables!")

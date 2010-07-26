@@ -25,6 +25,7 @@ recipes/lib/base.py
 recipes/lib/helpers.py
 recipes/model/__init__.py
 recipes/model/meta.py
+recipes/model/recipe.py
 recipes/public/bg.png
 recipes/public/favicon.ico
 recipes/public/index.html
